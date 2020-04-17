@@ -1,0 +1,21 @@
+$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/fonts_/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: $font-stack;
+  background-image: url(../img/img_/logo.svg);
+  #logo {
+    width: 10rem;
+  }
+  .container {
+    img {
+      width: 20rem;
+    }
+  }
+}
